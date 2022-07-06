@@ -1,4 +1,8 @@
-.icon-thumb {
+.decision {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.decision__icon-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +12,7 @@
     border-radius: 4px;
 }
 
-.decision-item-title {
+.decision__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -20,18 +24,18 @@
     margin-bottom: 10px;
 }
 
-.decision-item-content {
+.decision__content {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.decision-list {
+.decision__list {
     display: flex;
     padding-left: 0;
 }
 
-.decision-item-list:not(:last-child) {
+.decision__item:not(:last-child) {
     margin-right: 30px;
 }

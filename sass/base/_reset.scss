@@ -17,17 +17,8 @@ img {
     max-width: 100%;
     height: auto;
 }
-.nav,
-.mail-phone,
-.decision-list,
-.do-list,
-.team-list,
-.address-list,
-.button-list,
-.categories-list,
-.second-categories-list,
-.participant-soc-list,
-.client-list,
-.soc-footer-list {
-    list-style-type: none;
+[class*="list"] {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }

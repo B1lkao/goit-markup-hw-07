@@ -1,17 +1,17 @@
-.main-do {
+.do {
     padding-bottom: 94px;
 }
 
-.do-list {
+.do__list {
     display: flex;
     padding-left: 0;
 }
 
-.do-item-list:not(:last-child) {
+.do__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.do-title {
+.do__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -21,18 +21,18 @@
     margin-bottom: 50px;
 }
 
-.do-item-list {
+.do__item {
     max-width: 370px;
 }
 
-.gallery-wrap {
+.do__gallery {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.text-do-list {
+.do__img-text {
     position: absolute;
     bottom: 0;
     font-size: 16px;

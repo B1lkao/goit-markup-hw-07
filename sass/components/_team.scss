@@ -1,10 +1,10 @@
-.main-team {
+.team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
 }
 
-.team-title {
+.team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -14,22 +14,22 @@
     margin-bottom: 50px;
 }
 
-.team-list {
+.team__list {
     display: flex;
     padding-left: 0;
 }
 
-.team-item-list {
+.team__item {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-list:not(:last-child) {
+.team__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.participant {
+.team__card-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -41,7 +41,7 @@
     margin-bottom: 10px;
 }
 
-.participant-job {
+.team__card-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -53,31 +53,31 @@
     margin-bottom: 16px;
 }
 
-.participant-participant-job {
+.team__card {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.participant-participant-job .par-link {
+.team__card .par-link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.participant-soc-list {
+.team__soc-list {
     display: flex;
     justify-content: center;
 }
 
-.par-item {
+.team__soc-item {
     width: 44px;
     height: 44px;
     margin-left: 10px;
 }
 
-.par-item:first-child {
+.team__soc-item:first-child {
     margin-left: 0;
 }
 
-.par-link {
+.team__soc-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,17 +86,17 @@
     border-radius: 50%;
 }
 
-.par-soc-icon {
+.team__soc-icon {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.par-link:hover,
-.par-link:focus {
+.team__soc-link:hover,
+.team__soc-link:focus {
     background-color: #2196F3;
 }
 
-.par-link:hover .par-soc-icon,
-.par-link:focus .par-soc-icon {
+.team__soc-link:hover .team__soc-icon,
+.team__soc-link:focus .team__soc-icon {
     fill: #FFFFFF;
 }
