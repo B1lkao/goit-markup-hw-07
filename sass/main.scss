@@ -1,9 +1,20 @@
+// utils
 @import './utils/variables';
 
+@import './utils/mixins';
+
+@import './utils/placeholders';
+
+@import './utils/visually-hidden';
+
+
+// base
 @import './base/common';
 
 @import './base/reset';
 
+
+// components
 @import './components/form';
 
 @import './components/modal';
