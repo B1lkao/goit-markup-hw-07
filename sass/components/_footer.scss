@@ -1,0 +1,180 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+.soc-footer {
+    margin-left: 70px;
+}
+
+.soc-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.soc-item-footer {
+    margin-right: 10px;
+}
+
+.social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    color: #afb1b8;
+    border-radius: 50%;
+}
+
+.soc-footer-list {
+    display: flex;
+}
+
+.soc-footer .social-link {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.icon-footer {
+    fill: currentColor;
+}
+
+.soc-footer .social-link:hover,
+.soc-footer .social-link:focus {
+    background-color: #2196f3;
+}
+
+.city {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address-list .city,
+.address-mail,
+.address-phone {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-list li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address-phone {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address-item-phone {
+    padding: 0;
+}
+
+.city:visited {
+    color: #FFFFFF;
+}
+
+.address-mail:visited,
+.address-phone:visited {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:hover,
+.address-phone:hover,
+.city:hover {
+    color: #2196F3;
+}
+
+.soc-footer .social-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscription {
+    margin-left: 93px;
+}
+
+.subscription-form {
+    display: inline-flex;
+}
+
+.subscription-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.subscription-input {
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    margin-right: 12px;
+}
+
+.subscription-form>.form-btn {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-icon {
+    margin-left: 10px;
+    fill: currentColor;
+}
