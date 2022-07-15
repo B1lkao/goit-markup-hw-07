@@ -71,9 +71,23 @@
 }
 .сontact-nav {
     margin-left: auto;
+    @include tablet {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+     @include desktop {
+        margin-left: auto;
+    flex-direction: row;
+  }
 }
 .contact-nav__item:not(:last-child) {
-    margin-right: 50px;
+    // margin-right: 50px;
+    @include tablet {
+        padding-bottom: 10px;
+    }
 }
 
 .contact-nav__link {
@@ -84,6 +98,14 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    @include tablet {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    @include desktop{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 }
 .contact-nav__icon {
     margin-right: 10px;
